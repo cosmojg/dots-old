@@ -5,10 +5,12 @@ dotfiles
 
 ## dependencies
 * [alacritty](https://wiki.archlinux.org/index.php/Alacritty)
-* [bemenu](https://www.archlinux.org/packages/community/x86_64/bemenu/)
-* [fish](https://wiki.archlinux.org/index.php/fish)
-* [fortune](https://wiki.archlinux.org/index.php/fortune)
-* [sway](https://wiki.archlinux.org/index.php/sway)
+* [bemenu](https://www.archlinux.org/packages/?name=bemenu)
+* [fish](https://wiki.archlinux.org/index.php/Fish)
+* [fortune](https://wiki.archlinux.org/index.php/Fortune)
+* [sway](https://wiki.archlinux.org/index.php/Sway)
+* [swayidle](https://www.archlinux.org/packages/?name=swayidle)
+* [swaylock](https://www.archlinux.org/packages/?name=swaylock)
 
 ---
 
