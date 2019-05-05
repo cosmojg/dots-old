@@ -8,6 +8,7 @@ dotfiles
 * [bemenu](https://www.archlinux.org/packages/?name=bemenu)
 * [fish](https://wiki.archlinux.org/index.php/Fish)
 * [fortune](https://wiki.archlinux.org/index.php/Fortune)
+* [neovim](https://wiki.archlinux.org/index.php/Neovim)
 * [sway](https://wiki.archlinux.org/index.php/Sway)
 * [swayidle](https://www.archlinux.org/packages/?name=swayidle)
 * [swaylock](https://www.archlinux.org/packages/?name=swaylock)
