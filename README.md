@@ -15,7 +15,6 @@ dotfiles
 1. ```git clone --bare https://github.com/cosmojg/.dots.git $HOME/.dots```
 1. ```git --git-dir=$HOME/.dots/ --work-tree=$HOME checkout```
 1. ```git --git-dir=$HOME/.dots/ --work-tree=$HOME config --local status.showUntrackedFiles no```
-1. ```exit```
 
 ### usage
 1. ```dots add <file or folder>```
