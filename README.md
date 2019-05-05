@@ -4,6 +4,8 @@ dotfiles
 ---
 
 ## dependencies
+* [alacritty](https://wiki.archlinux.org/index.php/Alacritty)
+* [bemenu](https://www.archlinux.org/packages/community/x86_64/bemenu/)
 * [fish](https://wiki.archlinux.org/index.php/fish)
 * [fortune](https://wiki.archlinux.org/index.php/fortune)
 * [sway](https://wiki.archlinux.org/index.php/sway)
