@@ -1,22 +1,31 @@
-## .dots
-dotfiles
+# .dots
+### dotfiles
 
 ---
 
-## dependencies
-* [alacritty](https://wiki.archlinux.org/index.php/Alacritty)
-* [bemenu](https://github.com/Cloudef/bemenu)
-* [fish](https://wiki.archlinux.org/index.php/Fish)
-* [fortune](https://wiki.archlinux.org/index.php/Fortune)
-* [mako](https://github.com/emersion/mako)
-* [neovim](https://wiki.archlinux.org/index.php/Neovim)
+# dependencies
+### compositor
 * [sway](https://wiki.archlinux.org/index.php/Sway)
-* [swayidle](https://github.com/swaywm/swayidle)
-* [swaylock](https://github.com/swaywm/swaylock)
+    * [mako](https://github.com/emersion/mako)
+    * [swayidle](https://github.com/swaywm/swayidle)
+    * [swaylock](https://github.com/swaywm/swaylock)
+
+### editor
+* [neovim](https://wiki.archlinux.org/index.php/Neovim)
+
+### launcher
+* [bemenu](https://github.com/Cloudef/bemenu)
+
+### shell
+* [fish](https://wiki.archlinux.org/index.php/Fish)
+    * [fortune](https://wiki.archlinux.org/index.php/Fortune)
+
+### terminal
+* [alacritty](https://wiki.archlinux.org/index.php/Alacritty)
 
 ---
 
-## instructions
+# instructions
 ### installation
 1. ```git clone --bare https://github.com/cosmojg/.dots.git $HOME/.dots```
 1. ```git --git-dir=$HOME/.dots/ --work-tree=$HOME checkout```
