@@ -5,13 +5,14 @@ dotfiles
 
 ## dependencies
 * [alacritty](https://wiki.archlinux.org/index.php/Alacritty)
-* [bemenu](https://www.archlinux.org/packages/?name=bemenu)
+* [bemenu](https://github.com/Cloudef/bemenu)
 * [fish](https://wiki.archlinux.org/index.php/Fish)
 * [fortune](https://wiki.archlinux.org/index.php/Fortune)
+* [mako](https://github.com/emersion/mako)
 * [neovim](https://wiki.archlinux.org/index.php/Neovim)
 * [sway](https://wiki.archlinux.org/index.php/Sway)
-* [swayidle](https://www.archlinux.org/packages/?name=swayidle)
-* [swaylock](https://www.archlinux.org/packages/?name=swaylock)
+* [swayidle](https://github.com/swaywm/swayidle)
+* [swaylock](https://github.com/swaywm/swaylock)
 
 ---
 
