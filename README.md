@@ -22,6 +22,7 @@
 
 #### terminal
 * [alacritty](https://wiki.archlinux.org/index.php/Alacritty)
+    * [wl-clipboard-x11](https://github.com/brunelli/wl-clipboard-x11)
 
 ---
 
