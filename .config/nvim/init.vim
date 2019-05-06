@@ -57,12 +57,15 @@ set spell
 " Enable true colors
 set termguicolors
 
-" Set colorscheme according to time of day
-if strftime("%H") >= 8 && strftime("%H") < 20
-    set background=light
-else
-    set background=dark
-endif
+"" Set colorscheme based on time of day
+"if strftime("%H") >= 8 && strftime("%H") < 20
+"    set background=light
+"else
+"    set background=dark
+"endif
+
+" Set dark colorscheme
+set background=dark
 
 " Enable italics in gruvbox
 let g:gruvbox_italic=1
