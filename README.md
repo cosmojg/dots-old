@@ -38,3 +38,13 @@
 1. ```dots push -u origin master```
 
 see: https://www.atlassian.com/git/tutorials/dotfiles
+
+---
+
+## to-do
+* configure bemenu
+    * alternatively, switch to fzf
+* configure firefox
+* configure fonts
+* configure mako
+* configure waybar
