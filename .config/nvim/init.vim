@@ -12,6 +12,7 @@ if exists('*minpac#init')
 
     " Register ALE
     call minpac#add('w0rp/ale')
+
 endif
 
 " Load minpac, reload config, call function
