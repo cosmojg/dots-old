@@ -6,6 +6,7 @@
 ## dependencies
 #### compositor
 * [sway](https://wiki.archlinux.org/index.php/Sway)
+    * [light](https://wiki.archlinux.org/index.php?title=Light)
     * [mako](https://github.com/emersion/mako)
     * [swayidle](https://github.com/swaywm/swayidle)
     * [swaylock](https://github.com/swaywm/swaylock)

@@ -61,6 +61,12 @@ input "1739:30383:DELL07E6:00_06CB:76AF_Touchpad" {
     # start your browser
     bindsym $mod+i exec MOZ_ENABLE_WAYLAND=1 firefox
 
+    # increase brightness
+    bindsym XF86MonBrightnessUp exec light -A 5
+
+    # decrease brightness
+    bindsym XF86MonBrightnessDown exec light -U 5
+
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.
