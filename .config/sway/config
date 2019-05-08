@@ -1,10 +1,5 @@
 # Read `man 5 sway` for a complete reference.
 
-### Notifications
-#
-# Manage notifications with mako
-exec mako
-
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -14,13 +9,6 @@ set $left h
 set $down j
 set $up k
 set $right l
-# Your preferred terminal emulator
-set $term alacritty
-# Your preferred application launcher
-# Note: it's recommended that you pass the final command to sway
-set $menu bemenu-run | xargs swaymsg exec
-# Your preferred web browser
-set $browser MOZ_ENABLE_WAYLAND=1 firefox
 
 ### Output configuration
 #
@@ -50,28 +38,28 @@ exec swayidle -w \
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
-    input "1739:30383:DELL07E6:00_06CB:76AF_Touchpad" {
-        dwt enabled
-        tap enabled
-        natural_scroll enabled
-        middle_emulation enabled
-    }
+input "1739:30383:DELL07E6:00_06CB:76AF_Touchpad" {
+    dwt enabled
+    tap enabled
+    natural_scroll enabled
+    middle_emulation enabled
+}
 
 ### Key bindings
 #
 # Basics:
 #
     # start a terminal
-    bindsym $mod+Return exec $term
+    bindsym $mod+Return exec alacritty
 
     # kill focused window
     bindsym $mod+Shift+q kill
 
     # start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+d exec bemenu-run | xargs swaymsg exec
 
     # start your browser
-    bindsym $mod+i exec $browser
+    bindsym $mod+i exec MOZ_ENABLE_WAYLAND=1 firefox
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -205,5 +193,10 @@ bindsym $mod+r mode "resize"
 bar {
     swaybar_command waybar
 }
+
+### Notifications
+#
+# Manage notifications with mako
+exec mako
 
 include /etc/sway/config.d/*
