@@ -8,7 +8,7 @@
 * [sway](https://wiki.archlinux.org/index.php/Sway)
     * [light](https://wiki.archlinux.org/index.php?title=Light)
     * [mako](https://github.com/emersion/mako)
-    * [redshift](https://wiki.archlinux.org/index.php/Redshift)
+    * [redshift-wlr-gamma-control-git](https://wiki.archlinux.org/index.php/Redshift)
     * [swayidle](https://github.com/swaywm/swayidle)
     * [swaylock](https://github.com/swaywm/swaylock)
 
