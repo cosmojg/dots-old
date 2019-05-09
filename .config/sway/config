@@ -193,16 +193,25 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #
-# Status Bar:
+# Blue Light Filter:
 #
-# Read `man 5 sway-bar` for more information about this section.
-bar {
-    swaybar_command waybar
-}
+# Filter blue light with redshift based on sun position in Boston
+exec redshift -l manual:lat=42.3601:lon=-71.0589
 
-### Notifications
+#
+# Notifications:
 #
 # Manage notifications with mako
 exec mako
+
+#
+# Status Bar:
+#
+# Read `man 5 sway-bar` for more information about this section.
+#
+# Manage status bar with waybar
+bar {
+    swaybar_command waybar
+}
 
 include /etc/sway/config.d/*
