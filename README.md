@@ -50,3 +50,5 @@ see: https://www.atlassian.com/git/tutorials/dotfiles
 * configure fonts
 * configure mako
 * configure waybar
+* replace submodules with documentation
+    * alternative, write a script
