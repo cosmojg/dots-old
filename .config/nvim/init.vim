@@ -19,6 +19,10 @@ endif
 command! PackUpdate packadd minpac | source $MYVIMRC | call minpac#update('', {'do': 'call minpac#status()'})
 command! PackClean packadd minpac | source $MYVIMRC | call minpac#clean()
 
+" Enable local configs
+set exrc
+set secure
+
 " Delete trailing whitespace
 command! TrimTrail %s/\s\+$//e
 
