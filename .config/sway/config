@@ -67,6 +67,15 @@ input "1739:30383:DELL07E6:00_06CB:76AF_Touchpad" {
     # decrease brightness
     bindsym XF86MonBrightnessDown exec light -U 5
 
+    # increase volume
+    bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+    # decrease volume
+    bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+    # mute volume
+    bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.
